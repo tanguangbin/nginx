@@ -1,0 +1,2 @@
+# nginx
+test for argocd
