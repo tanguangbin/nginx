@@ -13,7 +13,7 @@ metadata:
     app: mynginx
 spec:
   ##副本数
-  replicas: 1
+  replicas: 2
   ##选择器
   selector:
     ##匹配标签
