@@ -71,11 +71,11 @@ spec:
       ##映射端口
       targetPort: 80
       ##指定访问端口
-      nodePort: 30002
+      ##nodePort: 30002
   ##选择器
   selector:
     ##选择业务进行发布
     app: mynginx
   sessionAffinity: None
   ##端口映射
-  type: NodePort
+  type: LoadBalancer
